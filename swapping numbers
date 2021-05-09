@@ -1,0 +1,12 @@
+//C Program to perform the swapping of 2 numbers without using a temporary variable.
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int a=10;
+    int b=15;
+    printf("Before swap a=%d b=%d\n",a,b);
+    a=10+5;//a=10 add 5 to 10 ,a=15
+    b=15-5;//b=15 substract 5 to 15 ,b=10
+    printf("After swap a=%d b=%d\n",a,b);
+    return 0;
+}
